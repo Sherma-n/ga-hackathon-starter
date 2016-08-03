@@ -20,7 +20,7 @@
     "connect-mongo": "^1.1.0",
     "dotenv": "^2.0.0",
     "errorhandler": "^1.4.3",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "express-flash": "^0.0.2",
     "express-session": "^1.13.0",
     "express-validator": "^2.20.6",
@@ -57,7 +57,10 @@
     "twilio": "^3.3.0-edge",
     "twit": "^2.2.4",
     "validator": "^5.2.0",
-    "yui": "^3.18.1"
+    "yui": "^3.18.1",
+    "bcrypt": "^0.8.5",
+    "jwt-simple": "^0.3.1",
+    "passport-jwt": "^1.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
