@@ -11,6 +11,9 @@ const LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
 const OpenIDStrategy = require('passport-openid').Strategy;
 const OAuthStrategy = require('passport-oauth').OAuthStrategy;
 const OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
+// Sherman Login Strategy
+const JwtStrategy = require('passport-jwt').Strategy;
+
 
 const User = require('../models/User');
 

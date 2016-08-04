@@ -73,7 +73,8 @@ app.use(sass({
 }));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+// Sherman Note Extended False Changes data sent
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
 app.use(session({
   resave: true,
